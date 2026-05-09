@@ -11,6 +11,7 @@ input.onButtonPressed(Button.A, function () {
     Number2 = 0
 })
 input.onButtonPressed(Button.AB, function () {
+    basic.showString("twlight")
     music.setVolume(255)
 })
 input.onButtonPressed(Button.B, function () {
