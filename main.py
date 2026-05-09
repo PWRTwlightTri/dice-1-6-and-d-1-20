@@ -13,7 +13,7 @@ def on_button_pressed_a():
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_ab():
-    basic.show_string("Grayson")
+    basic.show_string("Twlight")
     music.set_volume(255)
 input.on_button_pressed(Button.AB, on_button_pressed_ab)
 
